@@ -1,0 +1,14 @@
+syntax = "proto3";
+package akiroinu.akiro.akiro;
+
+import "gogoproto/gogo.proto";
+import "akiro/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/akiroinu/akiro/x/akiro/types";
+
+// GenesisState defines the akiro module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

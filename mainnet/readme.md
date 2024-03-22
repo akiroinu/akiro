@@ -45,7 +45,7 @@ EOF
 
 sudo systemctl daemon-reload
 sudo systemctl enable akirod
-sudo systemctl restart akirod && sudo journalctl -u akirod -f -o cat```
+sudo systemctl restart akirod && sudo journalctl -u akirod -f -o cat
 
 
 

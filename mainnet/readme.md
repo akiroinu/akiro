@@ -1,6 +1,5 @@
-UPDATE SYSTEM..
 
-sudo apt update && sudo apt upgrade -y
+```sudo apt update && sudo apt upgrade -y
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
 
 GO 
@@ -46,7 +45,7 @@ EOF
 
 sudo systemctl daemon-reload
 sudo systemctl enable akirod
-sudo systemctl restart akirod && sudo journalctl -u akirod -f -o cat
+sudo systemctl restart akirod && sudo journalctl -u akirod -f -o cat```
 
 
 
